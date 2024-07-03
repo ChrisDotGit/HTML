@@ -12,12 +12,37 @@ header {
     color: aliceblue;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     font-weight: bold;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main{
+    width: 400px;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+p {
+    margin: 10px;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: rgb(124, 124, 124);
+}
+
+
+#title {
+    font-size: 1.8rem;
+}
+
+#sub-title {
+    height: 20px;
+    background-color: rgb(8, 66, 94);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-style: italic;
 }
