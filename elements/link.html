@@ -5,8 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link</title>
 </head>
+<style>
+    div {
+        width: 100px;
+        font-style: italic;
+        padding: 5px;
+        margin: 30px;
+        color: rgb(122, 122, 122);
+    }
+</style>
+
 <body>
-    <a href="https://www.google.com/">Google Search</a>
-    <a href="/elements/image.html">image</a>
+    Basic Hyperlink:
+    <a href="https://www.google.com/"><br>Google Search</a>
+    <br>
+    <br>
+    Link to an External Website (Opening in a New Tab):
+    <a href="https://www.example.com" target="_blank" rel="noopener noreferrer"><br>Visit Example (Opens in new tab)</a>
+    <br>
+    <br>
+    Internal Link (Relative URL):
+    <a href="../index.html"><br>Index.html</a>
+    <br>
+    <br>
+    Anchor Link (Scroll to Section):
+    <a href="#sectionA"><br>Jump to Section A</a>
+    <br>
+    <br>
+    Email Link (mailto:):
+    <a href="mailto:contact@example.com"><br>Email Us</a>
+    <br>
+    <br>
+    Link to File (PDF, Document, etc.):
+    <a href="documents/document.pdf" download><br>Download PDF</a>
+
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est laudantium fuga autem minus eius, soluta fugit corporis eaque sint nam a aliquid dolores iusto voluptates? Praesentium iure numquam quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. At a quidem nostrum voluptatibus cum fuga est aut animi et. Repudiandae quas placeat accusamus quisquam a, accusantium animi iste! Aliquid, in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolorem animi nostrum incidunt ab ullam cupiditate laborum tempora vitae repudiandae, iusto voluptatum quidem expedita vel aut distinctio molestias totam. Sit!</div>
+    
+    <section id="sectionA">
+        <summary>Section A</summary>
+        <details> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto sequi impedit nam saepe, fuga numquam pariatur necessitatibus, non nesciunt officia totam, ipsam quaerat! Iure architecto minus maxime optio facilis.</details>
+    </section>
 </body>
 </html>
