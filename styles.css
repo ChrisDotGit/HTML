@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    height: 40px;
+    height: 60px;
     background-color: rgb(8, 66, 94);
     color: aliceblue;
     display: flex;
